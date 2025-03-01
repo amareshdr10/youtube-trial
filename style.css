@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+body,html{
+    height: 100%;
+    margin: 0;
+    background: radial-gradient(circle,#b91616,black);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'inter',sans-serif;
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+}
+.logo img{
+    height:50px;
+    width:auto;
+}
+.trending-title{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.navbar{
+    display: flex;
+    background-color: #474747;
+    padding: 5px 10px;
+    border-radius:50px;
+    gap:20px;
+    position: absolute;
+    top: 40px;
+    left: 800px;
+    transform: translateX(-50%);
+}
+.nav-item{
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: center;
+}
+.get-started{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: red;
+    color: white;
+    padding:10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.3s;
+
+}
+.get-started:hover{
+    opacity: 0.9;
+}
+.only-on-netflix{
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-top:20px;
+    margin-left: 30px;
+
+}
+ .movie-section,.movie-section-1{
+    display:flex;
+    justify-content: center;
+    margin-top: 150px;
+ }
+ .movie-section-1{
+    margin-top: 30px;
+
+ }
+.movie-cards{
+    display: flex;
+    gap: 15px;
+}
+.movie-card{
+    width: 160px;
+    height: 230px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor:pointer;
+    object-fit: cover;
+}
+.movie-card:hover{
+    transform:scale(1.1);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+}
